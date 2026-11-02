@@ -109,3 +109,18 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+button {
+  padding: 12px 22px;
+  margin: 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* Red reset button */
+button:last-of-type {
+  background-color: #f44336;
+  color: white;
+}
